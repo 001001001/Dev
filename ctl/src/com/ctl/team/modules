@@ -1,0 +1,9 @@
+Software: 
+
+1. Front-end: Flat UI
+2. Framework: Spring MVC, Hibernate
+3. DB: MongoDB
+4. Rules Engine: Corticon Studio/Server
+5. Build: Maven
+6. Version Control: GitHub
+7. IDE: Eclipse (Kepler)
