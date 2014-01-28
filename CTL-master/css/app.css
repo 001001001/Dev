@@ -1,0 +1,71 @@
+
+
+@font-face {
+  font-family: 'Eras';
+  src: url('../fonts/Eras/ERASLGHT.TTF');
+  /*src: url('../fonts/lato/lato-black-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato/lato-black-webfont.woff') format('woff'), url('../fonts/Eras/ERASLGHT.TTF') format('truetype'), url('../fonts/lato/lato-black-webfont.svg#latoblack') format('svg');*/
+  font-weight: 900;
+  font-style: normal;
+}
+
+body {margin: 0; font-family: "Lato", Helvetica, Arial, sans-serif;}
+
+/*.container{ padding:0px; }*/
+
+.text-center{ text-align:center }
+.no-margin{ margin:0px;}
+
+.navbar .navbar-brand{ padding:0;}
+
+.container .jumbotron {border-radius: 0px; }
+.container .row{padding:0 20px;}
+
+.jumbotron { font-family:"Eras", Helvetica, Arial, sans-serif; font-size:30px; line-height:50px; position: relative; height:650px; background-color:#fff; border-radius: 0px; padding:50px 0; margin:0; }
+.jumbotron .balance{ position: absolute; height:750px; width:100% }
+.jumbotron.mainheader  { height:750px; border-radius: 0px; padding:0; margin:0; }
+.jumbotron.mainheader .row{padding:0px;}
+
+.jumbotron h1{ font-family:"Eras", Helvetica, Arial, sans-serif; padding:120px 25px 0 0px; font-size:80px; text-align:right}
+.jumbotron h2{ font-family:"Eras", Helvetica, Arial, sans-serif; font-size:50px; color:#16a085}
+.jumbotron h3{ font-family:"Eras", Helvetica, Arial, sans-serif; padding:10px 25px 30px; font-size:65px;text-align:right}
+.jumbotron h4{ font-family:"Eras", Helvetica, Arial, sans-serif; padding:10px 25px 30px; font-size:35px;text-align:right}
+.jumbotron p{ font-size:30px; padding:20px 0 0;}
+.jumbotron ul{ }
+.jumbotron label {font-size:30px; margin:15px 0 10px; line-height:18px;}
+
+.appheader ul{ margin-top:0px; }
+.appheader ul li{ font-family:"Calibri", Helvetica, Arial, sans-serif; color:#16a085 }
+.appheader ul li a{font-size:25px !important;}
+ 
+.text-white{color:#fff}
+.flatgreen{ color: #16a085;}
+.flatviolet{ color: #9b59b6;}
+.flatgreen-bg{ background-color: #16a085;}
+.flatviolet-bg{ background-color: #9b59b6; padding:0}
+
+.appfooter{ padding-top:30px; height:300px; background-color:#343434; font-family:"Eras", Helvetica, Arial, sans-serif; }
+
+
+.btn-hg{ width:100%; margin:35px 0 0 0;}
+
+.navbar-toggle .icon-bar {background-color: #9b59b6;}
+.navbar-toggle {border-color: #9b59b6;}
+
+@media (max-width: 768px) {
+	.navbar .nav > li {	  
+	  display:block;
+	}
+	
+	.jumbotron h1{ font-size:60px;}
+	.jumbotron h3{ font-size:45px;}
+	
+	.jumbotron .balance{ display:none;}
+}
+
+
+@media (max-width: 480px) {
+	.jumbotron h1{ font-size:50px;}
+	.jumbotron h3{ font-size:30px;}
+	
+	.jumbotron .balance{ display:none;}
+}
